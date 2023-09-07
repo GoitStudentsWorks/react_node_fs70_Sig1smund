@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
   <Provider store={store}>
     <PersistGate loading={<Spinner />} persistor={persistor}>
-      <BrowserRouter basename="/final-fullstack-team-proj">
+      <BrowserRouter basename="/react_node_fs70_Sig1smund">
         <App />
       </BrowserRouter>
     </PersistGate>
